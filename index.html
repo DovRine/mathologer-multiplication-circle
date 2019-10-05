@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Multiplication Circles</title>
+    <script type="module" src="main.mjs"></script>
+</head>
+<body>
+    <section>
+        <h1>This project was inspired by <a target="_blank" href="https://www.youtube.com/watch?v=qhbuKbxJsk8">this Mathologer YouTube video</a></h1>
+    </section>
+    <section class="toolbar">
+        <div class="wrapper">
+            <label>Points</label>
+            <input
+                id="inputPoints"
+                type="number"
+                placeholder="Enter #"
+                step="1"
+                min="10"
+                max="1000"
+                value="200"
+            />
+        </div>
+        <div class="wrapper">
+            <label>Point Size</label>
+            <input
+                id="inputPointSize"
+                type="number"
+                placeholder="Enter #"
+                step="1"
+                min="1"
+                max="10"
+                value="2"
+            />
+        </div>
+        <div class="wrapper">
+            <label>Multiplier</label>
+            <input
+                id="inputMultiplier"
+                type="number"
+                placeholder="Enter #"
+                step="1"
+                min="1"
+                max="1000000"
+                value="2"
+            />
+        </div>
+        <div class="wrapper">
+            <label>Show Labels</label>
+            <input
+                id="checkShowLabels"
+                type="checkbox"
+            />
+        </div>
+            
+    </section>
+</body>
+</html>
